@@ -1,0 +1,35 @@
+.hidden {
+  transform: translateX(-16rem);
+  transition: transform 300ms ease-out;
+}
+
+.sidebar {
+  background-color: #ffffff;
+  width: 16rem;
+  height: 100vh;
+  padding: 16px 10px 0 0;
+  position: fixed;
+  transition: transform 300ms ease-in;
+  top: 0;
+  right: -16rem;
+}
+
+navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.right-content > .logo{
+    width: 4rem
+}
+
+navbar > .right-content {
+  display: flex;
+  align-items: center;
+}
+
+navbar > .menu-icons {
+  width: 40px;
+}
