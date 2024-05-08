@@ -24,12 +24,11 @@ navbar {
 .right-content > .logo{
     width: 4rem
 }
-
-navbar > .right-content {
+ .right-content {
   display: flex;
   align-items: center;
 }
 
-navbar > .menu-icons {
+.menu-icons {
   width: 40px;
 }
