@@ -20,141 +20,97 @@
     <!-- FONT -->
 </head>
 
-<body style="margin: 0;">
-    <div style="padding: 16px;">
-        <navbar>
-            <div class=" right-content">
+<body style="margin: 0">
+    <div class="container">
+        <navbar class="rubik">
+            <div class="left-content">
                 <img src="./assets/images/logo.png" alt="Logo" class="logo" />
-                <h1 class="rubik" style="font-weight: 500; font-size: 1.7rem">
-                    Lasles<span style="font-weight: bold">VPN</span>
-                </h1>
+                <h1>Lasles<span style="font-weight: bold">VPN</span></h1>
+            </div>
+            <div class="middle-content">
+                <div>About</div>
+                <div>Features</div>
+                <div>Pricing</div>
+                <div>Testimonials</div>
+                <div>Help</div>
+            </div>
+            <div class="right-content rubik">
+                <button class="sign-in">Sign In</button>
+                <button class="sign-up">Sign Up</button>
             </div>
             <svg id="openToggle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="menu-icons">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
         </navbar>
-        <section style="margin-top: 20px">
-            <img src="./assets/images/photo1.png" alt="Photo" style="width: 80vw; margin: 0 auto" />
-            <div style="text-align: center" class="rubik">
-                <h1 style="font-size: 2rem; font-weight: 500">
-                    The Best Way<br />
-                    To Save & Invest.
-                </h1>
-                <p style="color: #4f5665; padding: 0 12px; line-height: 2">
-                    Piggyvest help over 3 million customer<br />
-                    achieve their financial goal by helping them<br />
-                    save and invest with ease
-                </p>
-            </div>
-            <div style="
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    margin-top: 42px;
-                ">
-                <button style="
-                    margin: 10px auto;
-                    padding: 20px 88px;
-                    background-color: #f53838;
-                    color: white;
-                    border: none;
-                    border-radius: 0.5rem;
-                    ">
-                    Get Started
-                </button>
-                <button style="
-                    display: flex;
-                    align-items: center;
-                    row-gap: 8px;
-                    margin: 10px auto;
-                    padding: 20px 80px;
-                    background-color: transparent;
-                    border: 1px solid black;
-                    border-radius: 9999px;
-                    ">
-                    <img src="./assets/images/apple.png" alt="" />Get on Iphone
-                </button>
-                <button style="
-                    display: flex;
-                    align-items: center;
-                    row-gap: 8px;
-                    margin: 10px auto;
-                    padding: 20px 80px;
-                    background-color: transparent;
-                    border: 1px solid black;
-                    border-radius: 9999px;
-                    ">
-                    <img src="./assets/images/playstore.png" alt="" />Get on Android
-                </button>
-            </div>
-        </section>
-        <section style="
-                margin-top: 60px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
 
-                ">
-            <img style="width: 100px" src="./assets/images/security.png" alt="Photo" />
-            <h1 style="font-size: 2.5rem; font-weight: 500; margin: 8px 0px;" class="dm-sans">Your security is our
-                priority
-            </h1>
-            <p style="color: #4f5665; padding: 0 12px; line-height: 2; font-weight: 700;" ; class="rubik">Piggyvest use
-                the
-                the highest level
-                of security
-                and it is secures by 256 bits SSL securityecryption to
-                ensure that your information is completely protected from fraud</p>
-            <div style="display: flex; align-items: center;">
-                <p style="margin: 0 8px; font-weight: 600" class="dm-sans">Learn More</p> <svg
-                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                    stroke="currentColor" style="width: 24px">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-                </svg>
+        <section class="section1">
+            <img src="./assets/images/photo1.png" alt="Photo" />
+            <div class="content-section1">
+                <div class="rubik title">
+                    <h1>The Best Way To Save & Invest.</h1>
+                    <p>
+                        Piggyvest help over 3 million customer achieve their financial
+                        goal by helping them save and invest with ease
+                    </p>
+                </div>
+                <div class="buttonGroup">
+                    <button id="getStarted">Get Started</button>
+                    <div>
+                        <button id="device">
+                            <img src="./assets/images/apple.png" alt="" />Get on Iphone
+                        </button>
+                        <button id="device">
+                            <img src="./assets/images/playstore.png" alt="" />Get on Android
+                        </button>
+                    </div>
+                </div>
             </div>
         </section>
-        <section style="
-                margin-top: 60px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-                ">
-            <h1 style="font-size: 2.5rem; font-weight: 500; margin: 8px 0px;" class="dm-sans">4 ways to build
-                your savings
-            </h1>
-            <p style="padding: 0 12px; line-height: 2; font-weight: 600" ; class="rubik">Earn 5%-15% when
-                you save with any
-                of these Piggyvest plans </p>
-            <button style="
-                    margin: 10px auto;
-                    padding: 20px 88px;
-                    background-color: #f53838;
-                    color: white;
-                    border: none;
-                    border-radius: 0.5rem;
-                    ">
-                Start Saving
-            </button>
-            <div
-                style="display: grid; grid-template-columns: repeat(1, minmax(0, 1fr)); gap: 40px; width: 100%; margin-top: 24px; padding: 8px; text-align: left;">
-                <div class="dm-sans"
-                    style="color: #080047; padding: 16px; background-color: #F7F7F7;	border-radius: 0.5rem;">
-                    <div
-                        style="width: fit-content; width: 40px; height: 40px; display: grid; place-items: center; background-color: #2469B2; border-top-right-radius: 0.5rem; border-bottom-right-radius: 0.5rem; border-top-left-radius: 0.5rem;">
-                        <img src="./assets/images/automated.png" alt="">
+
+        <section class="section2">
+            <img src="./assets/images/security.png" alt="Photo" />
+            <div>
+                <div id="content">
+                    <h1 class="dm-sans">Your security is our priority</h1>
+                    <p class="rubik">
+                        Piggyvest use the the highest level of security and it is secures
+                        by 256 bits SSL securityecryption to ensure that your information
+                        is completely protected from fraud
+                    </p>
+                </div>
+
+                <div id="learnMore">
+                    <p class="dm-sans">Learn More</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                        stroke="currentColor" style="width: 24px">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <section class="section3">
+            <div>
+                <h1 class="dm-sans">4 ways to build your savings</h1>
+                <p class="rubik">
+                    Earn 5%-15% when you save with any of these Piggyvest plans
+                </p>
+                <button>Start Saving</button>
+            </div>
+            <div class="grid-container">
+                <div class="dm-sans wrapper">
+                    <div class="icon-wrapper">
+                        <img src="./assets/images/automated.png" alt="" />
                     </div>
-                    <h1 style="font-size: 1.25rem">Automated Savings</h1>
-                    <p style="font-size: 1rem; font-weight: 600;">Build a dedicated saving on your
-                        term automatically or manually</p>
-                    <div class="dm-sans"
-                        style="display: flex; align-items: center; font-size: 1.25rem; margin-top: 40px;">
-                        <div
-                            style="display: grid; 	place-items: center; background-color: #2469B2; width: 40px; height: 40px ; border-radius: 9999px; margin-right: 10px">
+                    <h1>Automated Savings</h1>
+                    <p>
+                        Build a dedicated saving on your term automatically or manually
+                    </p>
+                    <div class="dm-sans flex">
+                        <div>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                                stroke="white" style="width: 24px;">
+                                stroke="white" style="width: 24px">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                             </svg>
@@ -162,22 +118,20 @@
                         Savelock
                     </div>
                 </div>
-                <div class="dm-sans"
-                    style="color: #080047; padding: 16px; background-color: #F7F7F7;	border-radius: 0.5rem;">
-                    <div
-                        style="width: fit-content; width: 40px; height: 40px; display: grid; place-items: center; background-color: #2469B2; border-top-right-radius: 0.5rem; border-bottom-right-radius: 0.5rem; border-top-left-radius: 0.5rem;">
-                        <img src="./assets/images/lock.png" alt="">
+
+                <div class="dm-sans wrapper">
+                    <div class="icon-wrapper">
+                        <img src="./assets/images/lock.png" alt="" />
                     </div>
-                    <h1 style="font-size: 1.25rem">Fixed Savings</h1>
-                    <p style="font-size: 1rem; font-weight: 600;">Lock money away for a fixed duration
-                        with no access to it until maturizty. it’s
-                        like having a custom fixed deposit,</p>
-                    <div class="dm-sans"
-                        style="display: flex; align-items: center; font-size: 1.25rem; margin-top: 40px;">
-                        <div
-                            style="display: grid; 	place-items: center; background-color: #2469B2; width: 40px; height: 40px ; border-radius: 9999px; margin-right: 10px">
+                    <h1>Fixed Savings</h1>
+                    <p>
+                        Lock money away for a fixed duration with no access to it until
+                        maturizty. it’s like having a custom fixed deposit,
+                    </p>
+                    <div class="dm-sans flex">
+                        <div>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                                stroke="white" style="width: 24px;">
+                                stroke="white" style="width: 24px">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                             </svg>
@@ -185,21 +139,18 @@
                         Savelock
                     </div>
                 </div>
-                <div class="dm-sans"
-                    style="color: #080047; padding: 16px; background-color: #F7F7F7;	border-radius: 0.5rem;">
-                    <div
-                        style="width: fit-content; width: 40px; height: 40px; display: grid; place-items: center; background-color: #AEFFB6; border-top-right-radius: 0.5rem; border-bottom-right-radius: 0.5rem; border-top-left-radius: 0.5rem;">
-                        <img src="./assets/images/automated2.png" alt="">
+                <div class="dm-sans wrapper">
+                    <div class="icon-wrapper2">
+                        <img src="./assets/images/automated2.png" alt="" />
                     </div>
-                    <h1 style="font-size: 1.25rem">Good oriented-Savings</h1>
-                    <p style="font-size: 1rem; font-weight: 600;">Build a dedicated saving on your
-                        term automatically or manually</p>
-                    <div class="dm-sans"
-                        style="display: flex; align-items: center; font-size: 1.25rem; margin-top: 40px;">
-                        <div
-                            style="display: grid; place-items: center; background-color: #AEFFB6; width: 40px; height: 40px ; border-radius: 9999px; margin-right: 10px">
+                    <h1>Good oriented-Savings</h1>
+                    <p>
+                        Build a dedicated saving on your term automatically or manually
+                    </p>
+                    <div class="dm-sans flex">
+                        <div class="wrapper2">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                                stroke="white" style="width: 24px;">
+                                stroke="white" style="width: 24px">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                             </svg>
@@ -207,22 +158,19 @@
                         Piggybank
                     </div>
                 </div>
-                <div class="dm-sans"
-                    style="color: #080047; padding: 16px; background-color: #F7F7F7;	border-radius: 0.5rem;">
-                    <div
-                        style="width: fit-content; width: 40px; height: 40px; display: grid; place-items: center; background-color: #FF9696; border-top-right-radius: 0.5rem; border-bottom-right-radius: 0.5rem; border-top-left-radius: 0.5rem;">
-                        <img src="./assets/images/lock2.png" alt="">
+                <div class="dm-sans wrapper">
+                    <div class="icon-wrapper3">
+                        <img src="./assets/images/lock2.png" alt="" />
                     </div>
-                    <h1 style="font-size: 1.25rem">Fixed Savings</h1>
-                    <p style="font-size: 1rem; font-weight: 600;">Lock money away for a fixed duration
-                        with no access to it until maturity. it’s
-                        like having a custom fixed deposit,</p>
-                    <div class="dm-sans"
-                        style="display: flex; align-items: center; font-size: 1.25rem; margin-top: 40px;">
-                        <div
-                            style="display: grid; 	place-items: center; background-color: #FF9696; width: 40px; height: 40px ; border-radius: 9999px; margin-right: 10px">
+                    <h1>Fixed Savings</h1>
+                    <p>
+                        Lock money away for a fixed duration with no access to it until
+                        maturity. it’s like having a custom fixed deposit,
+                    </p>
+                    <div class="dm-sans flex">
+                        <div class="wrapper3">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                                stroke="white" style="width: 24px;">
+                                stroke="white" style="width: 24px">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                             </svg>
@@ -232,157 +180,172 @@
                 </div>
             </div>
         </section>
-        <section style="
-            margin-top: 60px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            ">
-            <img style="width: 75vw; margin: 0 auto" src="./assets/images/photo2.png" alt="Photo">
-            <div style="display: flex; justify-content: flex-start; width: 100%; margin-top: 60px;">
-                <div class="dm-sans"
-                    style="color: #F53838; background-color: #FEE9E9; padding: 16px 40px; border-radius: 9999px;">Up to
-                    25%
-                    returned</div>
-            </div>
-            <h1 class="dm-sans" style="font-size: 2.25rem; text-align: left; color: #080047">Access investment
-                opportunities</h1>
-            <p class="dm-sans" style="text-align: left;">
-                Invest securely and confidentialy on the go. Grow your money confidently by investing on pre-vetted
-                investment opportunities
-            </p>
-            <div style="display: flex; align-items: center; width: 100%; margin-top: 20px;">
-                <p class="dm-sans" style="margin: 0 8px; font-weight: 600; font-size: 1.1rem; color: #F53838;">Learn
-                    more
-                    about investment</p> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                    stroke-width="2" stroke="#F53838" style="width: 24px">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-                </svg>
-            </div>
-        </section>
-        <section class="dm-sans" style="margin-top: 80px">
-            <div style="padding: 28px; background-color: #2469B2; color: white">
-                <h1 style="font-size: 1.7rem">Meet the saver of
-                    the month!</h1>
-                <p style="line-height: 1.625;">
-                    Every month, we shine spotlight on one saver,asking them questions about their saving culture and
-                    how
-                    the product is specifically hellping them how they spend and save for future responsibilities
-                </p>
-            </div>
-            <img src="./assets/images/tohbad.png" alt="Photo" style="width: 100%;">
-            <img src="./assets/images/feedback.png" alt="Photo" style="width: 100%; margin-top: 40px">
-        </section>
-        <section class="dm-sans" style="margin-top: 80px">
+
+        <section class="section4">
+            <img src="./assets/images/photo2.png" alt="Photo" />
             <div>
-                <h1 style="font-size: 2rem">3 Million+ customers</h1>
-                <p style="line-height: 1.625; font-size: 1.1rem">Since launching in 2016, over 3,000,000 people have
-                    used
-                    Piggyvest to manage their money better,avoid
-                    over-spending and be more accountable</p>
+                <div>
+                    <div class="dm-sans discount">Up to 25% returned</div>
+                </div>
+                <h1 class="dm-sans">Access investment opportunities</h1>
+                <p class="dm-sans">
+                    Invest securely and confidentialy on the go. Grow your money
+                    confidently by investing on pre-vetted investment opportunities
+                </p>
+                <div class="learnMore">
+                    <p class="dm-sans">Learn more about investment</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                        stroke="#F53838" style="width: 24px">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div>
             </div>
-            <div class="rubik" style="
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    margin-top: 42px;
-                ">
-                <button style="
-                    margin: 10px auto;
-                    padding: 20px 88px;
-                    background-color: #f53838;
-                    color: white;
-                    border: none;
-                    border-radius: 0.5rem;
-                    ">
-                    Get Started
-                </button>
-                <button style="
-                    display: flex;
-                    align-items: center;
-                    margin: 10px auto;
-                    padding: 14px 80px;
-                    background-color: transparent;
-                    border: 1px solid black;
-                    border-radius: 9999px;
-                    ">
-                    <img src="./assets/images/apple.png" alt="photo" style="margin-right: 8px;" />Get on Iphone
-                </button>
-                <button style="
-                    display: flex;
-                    align-items: center;
-                    margin: 10px auto;
-                    padding: 14px 80px;
-                    background-color: transparent;
-                    border: 1px solid black;
-                    border-radius: 9999px;
-                    ">
-                    <img src="./assets/images/playstore.png" alt="photo" style="margin-right: 8px;" />Get on Android
-                </button>
+        </section>
+
+        <section class="dm-sans section5">
+            <div>
+                <div class="wrapper">
+                    <h1>Meet the saver of the month!</h1>
+                    <p>
+                        Every month, we shine spotlight on one saver,asking them questions
+                        about their saving culture and how the product is specifically
+                        hellping them how they spend and save for future responsibilities
+                    </p>
+                    <div class="dm-sans flex">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                                stroke="#2469b2" style="width: 24px">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                        </div>
+                        Meet Tohbad
+                    </div>
+                </div>
+                <img src="./assets/images/tohbad.png" alt="Photo" />
             </div>
-            <div
-                style="display: flex; margin-top: 60px; align-items: center; width: 100%; gap: 32px; justify-content: center">
-                <img src="./assets/images/netflix.png" alt="Photo" style="width: 110px">
-                <img src="./assets/images/reddit.png" alt="Photo" style="width: 110px">
+        </section>
+
+        <section class="dm-sans section6">
+            <div class="flex">
+                <img src="./assets/images/feedback.png" alt="Photo" id="photo" />
+                <div class="content">
+                    <div class="title">
+                        <h1>3 Million+ customers</h1>
+                        <p class="dm-sans">
+                            Since launching in 2016, over 3,000,000 people have used
+                            Piggyvest to manage their money better,avoid over-spending and
+                            be more accountable
+                        </p>
+                    </div>
+                    <div class="rubik">
+                        <button id="getStarted">Start Saving</button>
+                        <div class="flex">
+                            <button id="device">
+                                <img src="./assets/images/apple.png" alt="photo" />Get on
+                                Iphone
+                            </button>
+                            <button id="device">
+                                <img src="./assets/images/playstore.png" alt="photo" />Get on
+                                Android
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div
-                style="display: flex; margin-top: 30px; align-items: center; width: 100%; gap: 28px; justify-content: center">
-                <img src="./assets/images/amazon.png" alt="Photo" style="width: 110px">
-                <img src="./assets/images/discord.png" alt="Photo" style="width: 110px">
-                <img src="./assets/images/spotify.png" alt="Photo" style="width: 110px">
+
+            <div class="desktop">
+                <img src="./assets/images/netflix.png" alt="Photo" style="width: 110px" />
+                <img src="./assets/images/reddit.png" alt="Photo" style="width: 110px" />
+                <img src="./assets/images/amazon.png" alt="Photo" style="width: 110px" />
+                <img src="./assets/images/discord.png" alt="Photo" style="width: 110px" />
+                <img src="./assets/images/spotify.png" alt="Photo" style="width: 110px" />
+            </div>
+
+            <div id="mobile">
+                <div style="
+              display: flex;
+              margin-top: 60px;
+              align-items: center;
+              width: 100%;
+              gap: 32px;
+              justify-content: center;
+            ">
+                    <img src="./assets/images/netflix.png" alt="Photo" style="width: 110px" />
+                    <img src="./assets/images/reddit.png" alt="Photo" style="width: 110px" />
+                </div>
+                <div style="
+              display: flex;
+              margin-top: 30px;
+              align-items: center;
+              width: 100%;
+              gap: 28px;
+              justify-content: center;
+            ">
+                    <img src="./assets/images/amazon.png" alt="Photo" style="width: 110px" />
+                    <img src="./assets/images/discord.png" alt="Photo" style="width: 110px" />
+                    <img src="./assets/images/spotify.png" alt="Photo" style="width: 110px" />
+                </div>
             </div>
         </section>
     </div>
-    <footer class="rubik" style="padding: 16px; margin-top: 60px; background-color: #F8F8F8;">
-        <div>
-            <h1 style="font-size: 1.2rem">Product</h1>
-            <div style="color: #4F5665; display: flex; flex-direction: column; gap: 24px; margin-top: 36px;">
-                <div>Download</div>
-                <div>Pricing</div>
-                <div>Locations</div>
-                <div>Server</div>
-                <div>Countries</div>
-                <div>Blog</div>
+
+    <footer class="rubik">
+        <div id="content">
+            <div>
+                <h1 class="title">Product</h1>
+                <div class="content">
+                    <div>Download</div>
+                    <div>Pricing</div>
+                    <div>Locations</div>
+                    <div>Server</div>
+                    <div>Countries</div>
+                    <div>Blog</div>
+                </div>
+            </div>
+            <div class="margin-top">
+                <h1 class="title">Engage</h1>
+                <div class="content">
+                    <div>LaslesVPN ?</div>
+                    <div>FAQ</div>
+                    <div>Tutorials</div>
+                    <div>About Us</div>
+                    <div>Privacy Policy</div>
+                    <div>Terms of Service</div>
+                </div>
+            </div>
+            <div class="margin-top">
+                <h1 class="title">Earn Money</h1>
+                <div class="content">
+                    <div>Affiliate</div>
+                    <div>Become Partner</div>
+                </div>
             </div>
         </div>
-        <div style="margin-top: 40px;">
-            <h1 style="font-size: 1.2rem">Engage</h1>
-            <div style="color: #4F5665; display: flex; flex-direction: column; gap: 24px; margin-top: 36px;">
-                <div>LaslesVPN ?</div>
-                <div>FAQ</div>
-                <div>Tutorials</div>
-                <div>About Us</div>
-                <div>Privacy Policy</div>
-                <div>Terms of Service</div>
-            </div>
-        </div>
-        <div style="margin-top: 40px;">
-            <h1 style="font-size: 1.2rem">Earn Money</h1>
-            <div style="color: #4F5665; display: flex; flex-direction: column; gap: 24px; margin-top: 36px;">
-                <div>Affiliate</div>
-                <div>Become Partner</div>
-            </div>
-        </div>
-        <div class="rubik" style="margin-top: 52px;">
-            <div class="right-content">
+        <div class="rubik margin-top2">
+            <div class="left-content">
                 <img src="./assets/images/logo.png" alt="Logo" class="logo" />
-                <h1 class="rubik" style="font-weight: 500; font-size: 1.7rem">
+                <h1 class="rubik">
                     Lasles<span style="font-weight: bold">VPN</span>
                 </h1>
             </div>
-            <p style="color: #4F5665; font-size: 1.2rem"><span style="font-weight: bold">LaslesVPN</span> is a private virtual network that has unique features and has high security.</p>
-            <div style="margin-top: 40px">
-                <img src="./assets/images/Facebook.png" alt="Photo">
-                <img src="./assets/images/Twitter.png" alt="Photo">
-                <img src="./assets/images/Instagram.png" alt="Photo">
-            </div>    
-            <p style="color: #AFB5C0; font-size: 1.2rem">©2020Lasles<span style="font-weight: bold;">VPN</span></p>
+            <p style="color: #4f5665; font-size: 1.2rem">
+                <span style="font-weight: bold">LaslesVPN</span> is a private virtual
+                network that has unique features and has high security.
+            </p>
+            <div class="margin-top">
+                <img src="./assets/images/Facebook.png" alt="Photo" />
+                <img src="./assets/images/Twitter.png" alt="Photo" />
+                <img src="./assets/images/Instagram.png" alt="Photo" />
+            </div>
+            <p style="color: #afb5c0; font-size: 1.2rem">
+                ©2020Lasles<span style="font-weight: bold">VPN</span>
+            </p>
         </div>
     </footer>
 
     <div class="sidebar">
-        <div style="display: flex; justify-content: end;">
+        <div style="display: flex; justify-content: end">
             <svg id="closeToggle" class="menu-icons" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                 stroke-width="1.5" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
